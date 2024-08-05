@@ -1,3 +1,13 @@
+body {
+    margin: 0;
+    padding:0;
+    justify-content:center;
+}
+
+
+
+
+
 .firstButtons {
     color: rgb(208, 202, 202);
     display: flex;
@@ -7,7 +17,7 @@
 }
 
 .tabs {
-  margin-right: 50px
+    margin-right: 50px
 }
 
 .intro{
@@ -26,7 +36,7 @@
 
 .tabs3 {
     margin-right:25px;
-    color:white
+    color:rgb(117, 115, 115)
 }
 
 .tabs4 {
@@ -37,20 +47,23 @@
     font-family: san serif;
     font-size:  35px;
     margin-bottom:-0.2em;
-    padding-bottom:0em
+    padding-bottom:0em;
+    text-align: center
 }
 
 .name2{
     font-family: Arial, Helvetica, sans-serif;
     font-size:  70px;
     margin-bottom: 0.6em;
-    padding-bottom:0em
+    padding-bottom:0em;
+    text-align: center
 }
 
 .name3{
     font-size: 15px;
     color:rgb(183, 181, 181);
     margin-bottom: 150px;
+    text-align: center
 }
 
 .secondButtons {
@@ -63,7 +76,7 @@
 
 .tabs5{
     margin-right:25px;
-    color: greenyellow
+    color: rgb(114, 175, 22)
 }
 
 .thirdButtons {
@@ -73,22 +86,39 @@
     align-items:center;
     margin-top: 20px;
     font-family: san serif;
-    font-size:  25px
+    font-size:  25px;
+    text-align: center
 }
 
 #backgroundImage{
 
     /* color:grey; */
+    /* padding:0;
+    margin:0; */
+    width:auto;
+    height:auto;
     background-image :url("Oliver.jpeg");
-    text-align: center;
     justify-items: center;
-    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+    width: 100%;
+    /* filter: blur(2px); */
+    /* width: auto; */
     
 }
 
 #downArea{
     background-color: rgb(39, 38, 38);
     margin-top: -1.5em;
-    
-
 }
+
+/* .imageContainer{
+    position:relative;
+    width:auto;
+    height:auto;
+    background-image :url("Oliver.jpeg");
+    background-size: cover;
+
+} */
