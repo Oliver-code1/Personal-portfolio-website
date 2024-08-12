@@ -1,116 +1,78 @@
 html, body {
-    height:100%;
-    width: 100%;
     margin: 0;
-    padding:0;
-    justify-content:center;
+    padding: 0;
 } 
 
-#backgroundImage{
-
-    /* color:grey; */
-    /* padding:0;
-    margin:0; */
-    
-    /* height:auto; */
+.backgroundImage {
+    display: flex;
+    flex-direction: column;
     background-image :url("Oliver.jpeg");
-    justify-items: center;
     background-position: center;
     background-repeat: no-repeat;
-    background-size:80% 100% ;
-    background-color: rgb(62, 61, 61);
-    height:80%;
-    width: 100%;
-    /* filter: blur(2px); */
-    /* width: auto; */
+    background-size:50rem 50rem ;
+    background-color: rgb(105, 104, 104);
+    gap: 6rem;
+    align-items: center;
 }
 
 .firstButtons {
     color: rgb(208, 202, 202);
     display: flex;
     flex-direction: row;  /*default  display for display: flex is row, not needed except you want to change it to a different flex-direction*/
-    justify-content: center;
-    /* align-items:center */
+    gap: 1rem;
 }
 
-.tabs {
-    margin-right: 50px
+
+.introMain{
+    text-align: center;
+    /* display: block; */
 }
 
-.intro{
+#font{
+    font-family: sans-serif;
+    font-size:2.5rem;
+    line-height: 1;
+    margin: 0;
+    color: rgb(222, 217, 217);
+}
+
+#font2 {  
+    font-family: arial;
+    font-size: 3rem;
     color:white;
-    margin-top: 70px;
-    line-height: 0em;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items:center
+    line-height: 1;
 }
 
-/* .tabs2{
-    height: auto
-} */
-
-
-.name{
-    font-family: san serif;
-    font-size:  35px;
-    margin-bottom:-0.2em;
-    padding-bottom:0em;
-    text-align: center
-}
-
-.name2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:  70px;
-    margin-bottom: 0.6em;
-    padding-bottom:0em;
-    text-align: center
-}
-
-.name3{
-    font-size: 15px;
-    color:rgb(183, 181, 181);
-    margin-bottom: 150px;
-    text-align: center;
-    padding-bottom: 20%;
-}
-
-
-.tabs3 {
-    margin-right:25px;
-    color:rgb(117, 115, 115)
-}
-
-.tabs4 {
-    margin-bottom:1em
+#font3 {
+    font-family: sans-serif;
+    font-size: 1rem;
+    margin-bottom: 7rem;
+    color: rgb(198, 194, 194);
 }
 
 
 
-
-
-.tabs5{
-    margin-right:25px;
-    color: rgb(114, 175, 22)
-}
-
-
-#downArea{
+.downArea{
     background-color: rgb(39, 38, 38);
-    margin-top: 0%  
+    color: white;
+    /* margin-top: 0%   */
 }
 
 
 .thirdButtons {
     display: flex;
-    flex-direction: row;
+    /* Automatically in row so no need for next line. */
+    flex-direction: row; 
     justify-content: center;
-    align-items:center;
+    /* align-items:center; */
     /* margin-top: 60px; */
     font-family: san serif;
-    font-size:  25px;
-    text-align: center
+    font-size:  20px;
+    gap: 1rem;
+}
+
+#featured {
+    color: rgb(149, 144, 144);
 }
 
 
@@ -118,32 +80,29 @@ html, body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:sans-serif;
     font-size:small;
-    padding-bottom: 10%;
+    gap: 2rem;
+    color: rgb(106, 103, 103);
+    padding-bottom: 1rem;
 }
 
-#homePageImages{
+#tabs {
+    color: rgb(92, 146, 10);
+}
+
+.homePageImages{
     display:flex;
     flex-direction:row;
-    justify-content: center;
-    padding-bottom:0%;
-
-
+    gap: 1rem;
+    /* justify-content: center; */
+    width:100px;
+    height:150px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* margin-left: 25%; */
+    
+    
 }
-
-.space{
-    margin-right: 30px;
-}
-
-
-/* .imageContainer{
-    position:relative;
-    width:auto;
-    height:auto;
-    background-image :url("Oliver.jpeg");
-    background-size: cover;
-
-} */
 
 
