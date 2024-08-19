@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    /* min-width: 404px; */
 } 
 
 .backgroundImage {
@@ -12,15 +13,23 @@ html, body {
     background-size:50rem 50rem ;
     background-color: rgb(105, 104, 104);
     gap: 6rem;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .firstButtons {
-    color: rgb(208, 202, 202);
+    /* color: rgb(208, 202, 202); */
+    background-color: rgb(247, 241, 241);
     display: flex;
     flex-direction: row;  /*default  display for display: flex is row, not needed except you want to change it to a different flex-direction*/
-    gap: 1rem;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
 }
+
+
+/* .me {
+    justify-content: right;
+} */
 
 
 .introMain{
@@ -41,13 +50,15 @@ html, body {
     font-size: 3rem;
     color:white;
     line-height: 1;
+    word-spacing: 1rem;
 }
 
 #font3 {
     font-family: sans-serif;
-    font-size: 1rem;
+    font-size: 1.3rem;
     margin-bottom: 7rem;
-    color: rgb(198, 194, 194);
+    color: rgb(227, 217, 217);
+    gap: 2rem;
 }
 
 
@@ -64,10 +75,8 @@ html, body {
     /* Automatically in row so no need for next line. */
     flex-direction: row; 
     justify-content: center;
-    /* align-items:center; */
-    /* margin-top: 60px; */
     font-family: san serif;
-    font-size:  20px;
+    font-size:  1.25rem;
     gap: 1rem;
 }
 
@@ -79,6 +88,7 @@ html, body {
 .secondButtons {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     font-family:sans-serif;
     font-size:small;
@@ -94,6 +104,7 @@ html, body {
 .homePageImages{
     display:flex;
     flex-direction:row;
+    flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
 }
@@ -103,6 +114,48 @@ html, body {
     width:15rem;
     height:auto;
 }
+
+.aboutTop {
+    background-color: rgb(105, 104, 104);
+    border: 0.5rem solid black;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 1.5rem;
+    
+
+}
+
+.aboutTop img {
+    height: 25rem;
+    width: auto;
+    /* background-color: rgb(105, 104, 104); */
+}
+
+/*  */.headerBackground {
+    background-color: rgb(105, 104, 104);
+}
+
+#aboutHeader {
+    font-size: 2.5rem;
+    text-decoration: underline;
+    word-spacing: 0.5rem;
+}
+
+.aboutHeaderInfo {
+    font-size: 1.2rem;
+    flex-wrap: wrap;
+}
+
+.aboutBottom {
+    /* background-color:  rgb(39, 38, 38); */
+    border: 0.5rem rgb(187, 23, 23);
+    /* color: white; */
+    font-size: 1rem;
+}
+
+
+
+
 
 
 
