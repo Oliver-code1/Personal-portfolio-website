@@ -1,0 +1,26 @@
+body {
+    background-image: url("Oliver.jpeg");
+    background-size: cover;
+    filter: blur(0.2rem);
+    
+}
+
+
+.header {
+    display: flex;
+    word-spacing: 0.2rem;
+    background-color:rgb(247,241,241);
+}
+
+.aboveLinks {
+    display: flex;
+    gap: 1rem;
+    margin-left: auto;
+}
+
+.boldHeader {
+    background-color: white;
+    border: 0.1rem  rgb(105, 104, 104);
+    border-style: dotted;
+}
+

@@ -1,0 +1,86 @@
+body,html {
+    height:auto
+}
+
+
+.aboutTop {
+    background-color: rgb(105, 104, 104);
+    border: 0.5rem double black;  /*or specify the border-style: border-style: double; */
+    border-radius: 1rem;
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.aboutTop img {
+    height: auto; /* automatically adjusts an element's height based on its content */
+}
+
+.headerBackground {
+    background-color: rgb(105, 104, 104);
+}
+
+#aboutHeader {
+    font-size: 2.5rem;
+    text-decoration: underline;
+    word-spacing: 0.5rem;
+}
+
+.aboutHeaderInfo {
+    font-size: 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aboutBottom {
+    background-color:  rgb(24, 23, 23);
+    border: 0.5rem rgb(126, 126, 126);
+    border-style: dashed double;
+    font-size: 1.6rem;
+    height: auto;
+    color: white;
+}
+
+#span1 {
+    color: blue;
+}
+
+#span2 {
+    color: orangered;
+}
+
+#span3 {
+    color: yellow;
+}
+
+#span4 {
+    color: lightgrey;
+}
+
+#span5 {
+    color: greenyellow;
+}
+
+#span6 {
+    color: violet;
+}
+
+.paragraph1 {
+    text-indent: 5rem;
+}
+
+.paragraph2 {
+    text-indent: 6.5rem;
+}
+
+.paragraph3 {
+    text-indent: 8rem
+}
+
+.paragraph4 {
+    text-indent: 9.5rem;
+}
+
+.paragraph5 {
+    text-indent:11rem;
+}
