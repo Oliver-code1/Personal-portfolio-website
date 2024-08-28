@@ -1,24 +1,17 @@
-html, body {
+/* html, body {
     margin: 0;
     padding: 0;
-    height: auto;
-    /* min-width: 404px; */
-} 
+    /* min-width: 404px;*/ 
+
 
 .backgroundImage {
-    display: flex;
-    flex-direction: column;
-    background-image :url("Oliver.jpeg");
-    background-position: center;
+    background-image :url("background image.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size:50rem 50rem ;
-    background-color: rgb(105, 104, 104);
-    gap: 6rem;
-    /* align-items: center; */
+
 }
 
 .firstButtons {
-    /* color: rgb(208, 202, 202); */
     background-color: rgb(247, 241, 241);
     display: flex;
     flex-direction: row;  /*default  display for display: flex is row, not needed except you want to change it to a different flex-direction*/
@@ -28,14 +21,11 @@ html, body {
 }
 
 
-/* .me {
-    justify-content: right;
-} */
-
-
 .introMain{
+    margin-top:6rem;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    /* display: block; */
 }
 
 #font{
@@ -48,8 +38,8 @@ html, body {
 
 #font2 {  
     font-family: arial;
-    font-size: 3rem;
-    color:white;
+    font-size: 5rem;
+    color:rgb(192, 175, 175);
     line-height: 1;
     word-spacing: 1rem;
 }
@@ -113,7 +103,6 @@ html, body {
 
 .homePageImages img {
     width:15rem;
-    height:auto;
 }
 
 

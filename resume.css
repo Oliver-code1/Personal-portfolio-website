@@ -1,0 +1,46 @@
+body {
+    display:grid;
+    gap: 2rem;
+}
+
+
+#name {
+    font-weight: bolder;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+   
+}
+
+#workTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(63, 136, 192);
+    
+}
+
+.leftPart {
+    grid-column: 1/2;
+    margin-left: 2rem;
+}
+
+.rightPart {
+    grid-column: 2;
+    margin-right: 2rem;
+    margin-top: 4rem;
+}
+
+.leftHeading {
+    display:flex;
+    gap: 3rem;
+
+}
+
+.leftHeading1 {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.leftHeading2{
+    margin-top: 4rem;
+}
