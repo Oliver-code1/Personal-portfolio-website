@@ -1,0 +1,13 @@
+body,html{
+    margin:0;
+    padding:0;
+    height: 100%;
+    background-image: url("contactPageBackground.jpg");
+    text-align: center;
+    color: white;
+}
+
+.contactMe {
+    color: white;
+    
+}
