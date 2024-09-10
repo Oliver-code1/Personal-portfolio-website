@@ -1,13 +1,16 @@
 body {
+
+    background-color: rgb(241, 232, 232);
+}
+
+.newBody {
     margin-top: 3rem;
     /* margin: 0; */
     padding: 0;
     height: 100%;
     display:grid;
-    gap: 2rem;
-    background-color: rgb(241, 232, 232);
+    gap: 2rem; 
 }
-
 
 #name {
     font-weight: bolder;
@@ -26,6 +29,7 @@ body {
     
 }
 
+
 .leftPart {
     grid-column: 1/2;
     margin-left: 2rem;
@@ -43,7 +47,7 @@ body {
     flex-wrap: wrap;
     gap: 1rem;
     background-color: rgb(192, 181, 181);
-};
+}
 
 
 
@@ -60,19 +64,30 @@ body {
 }
 
 #pdfLink {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 #pdfLinkAttributes {
-    position: fixed; 
+    margin-left: 2rem;
+    position: relative; 
     /* You need to use this before bottom, left,etc, can be used  */
-    bottom: 2rem;
+    bottom: -5rem;
 }
 
 #experienceEducation{
     background-color:rgb(10, 78, 10);
     color: white;
     font-size: 1.5rem;
+}
+
+#furtherInfoPara{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    word-spacing: 0.5rem;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+
 }
 
 

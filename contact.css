@@ -1,5 +1,5 @@
 body,html{
-    margin:0;
+    margin:5rem;
     padding:0;
     height: 100%;
     background-image: url("contactPageBackground.jpg");
@@ -7,7 +7,32 @@ body,html{
     color: white;
 }
 
-.contactMe {
-    color: white;
-    
+#contactMe {
+    font-weight: bold;
+    font-size:2rem;
+}
+
+#contactMe1 {
+    font-weight: bold;
+    font-size:1.5rem;
+}
+
+#contactMe2 {
+    font-weight: bold;
+    font-size:1rem;
+}
+
+
+#whatsapp {
+    font-size: 2rem;
+    color: greenyellow;
+}
+
+#email {
+    font-size: 2rem;
+    color: rgb(128, 128, 236);
+}
+
+.imageSpacing {
+    margin: 4rem;
 }
