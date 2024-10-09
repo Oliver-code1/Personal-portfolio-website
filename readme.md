@@ -20,3 +20,7 @@ Built with modern web development technologies, the site provides an interactive
 - **Deployment**: [GitHub Pages](https://pages.github.com/)
 
 
+## Screenshots
+
+![Portfolio Homepage](Screenshot of homepage.jpg)
+
